@@ -40,6 +40,6 @@ if($_SERVER['REQUEST_METHOD'] === "POST")
     <?php if (!empty($message)): ?>
     <p><?= $message ?></p>
 <?php endif; ?>
-    <a href="index.php">Add Users</a>
+    <a href="index.php">User List</a>
 </body>
 </html>

@@ -10,11 +10,7 @@ $users = $userController->getUsers();
 <head>
     <meta charset="UTF-8">
     <title>User List</title>
-    <style>
-        table { border-collapse: collapse; width: 60%; margin: 20px auto; }
-        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-        th { background-color: #f4f4f4; }
-    </style>
+    <link rel="stylesheet" href="../public/css/style.css">
 </head>
 <body>
     <h1 style="text-align:center;">User List</h1>
@@ -37,7 +33,7 @@ $users = $userController->getUsers();
             <tr><td colspan="3" style="text-align:center;">No users found</td></tr>
         <?php endif; ?>
     </table>
-    <a href="create.php">User List</a>
+    <a href="create.php">Add User</a>
 
 </body>
 </html>
