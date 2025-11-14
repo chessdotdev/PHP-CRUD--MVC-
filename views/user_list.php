@@ -37,5 +37,7 @@ $users = $userController->getUsers();
             <tr><td colspan="3" style="text-align:center;">No users found</td></tr>
         <?php endif; ?>
     </table>
+    <a href="create.php">User List</a>
+
 </body>
 </html>

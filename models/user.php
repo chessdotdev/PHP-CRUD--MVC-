@@ -54,7 +54,6 @@ class User
 
 }
 
-$user1 = new User;
 
 
 
