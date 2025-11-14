@@ -29,7 +29,7 @@ class User
         $stmt = $this->conn->prepare($sql);
         $stmt->execute();
 
-        return $stmt->fetchALl(PDO::FETCH_ASSOC);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
     public function update($id, $name, $email)

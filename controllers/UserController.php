@@ -3,6 +3,13 @@ include_once('../models/user.php');
 
 class UserController
 {
+    // private $user;
+
+    // public function __construct($user){
+    //     $this->user = new User;
+    // }
+   
+
 
     public function createUser($name, $email)
     {
