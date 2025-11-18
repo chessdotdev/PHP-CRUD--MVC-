@@ -19,6 +19,7 @@ $users = $userController->getUsers();
             <th>ID</th>
             <th>Name</th>
             <th>Email</th>
+            <th>action</th>
         </tr>
 
         <?php if (!empty($users)): ?>
@@ -27,6 +28,7 @@ $users = $userController->getUsers();
                     <td><?= htmlspecialchars($user['id']); ?></td>
                     <td><?= htmlspecialchars($user['name']); ?></td>
                     <td><?= htmlspecialchars($user['email']); ?></td>
+                    <td><a href="delete.php">Delete</a></td>
                 </tr>
             <?php endforeach; ?>
         <?php else: ?>
